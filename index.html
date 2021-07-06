@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info Attack</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/216b21532b8814014120b310e93b3d27.png" />
+    <style>
+        
+@media all{
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        width:100%;
+        height:100px;
+        background-image: linear-gradient(to left , rgb(158, 67, 39),rgb(194, 83, 53),  rgb(54, 88, 71) );
+    }
+    #dom{
+        width:30%;
+        height:100px;
+        background-color: white;
+        float: right;
+    }
+    #h1logo{
+        float: left;
+        font-size: 28px;
+        padding: 30px 40px;
+        color: black;
+        font-family: 'Lobster', cursive;
+    }
+    #imagelogo{
+        height: 100%;
+        border-radius: 50%;
+    }
+    nav{
+        width:70%;
+        text-align: center;
+    
+    }
+    nav a{
+        text-decoration: none;
+        color: blanchedalmond;
+        font-size: 18px;
+        font-weight: bold;
+        display: inline-block;
+    }
+    nav li{
+        display: inline-block;
+        line-height: 100px;
+        width: 100px;
+        text-align: center;
+    }
+    nav a:hover{
+        color: black;
+        background-color: white;
+        height: 100%;
+        width: 100%;
+    }
+    main{
+        width:100%;
+        height:500px;
+        background-color: green;
+        border-top: 2px solid white;
+    }
+    aside{
+        width:30%;
+        height:100%;
+        text-align: center;
+        background-color: white;
+        float:left;
+    }
+    aside img{
+        width:90%;
+        height:200px;
+        padding: 10px 0px;
+    }
+    #h1aside{
+        text-decoration: underline;
+        animation-name: changecl;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    #art{
+        float:right;
+        width:70%;
+        height:500px;
+        animation-name: changecolor;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    #box{
+        position: absolute;
+        top:50%;
+        left:50%;
+        width:450px;
+        height:150px;
+        background-color: whitesmoke;
+        text-align: center;
+    }
+    #box h1{
+        border-bottom: 3px solid brown;
+        padding: 10px 0px;
+    }
+    #box p{
+        justify-content: center;
+        padding: 8px 0px;
+    }
+    #image{
+        display: flex;
+        width:100%;
+        height: 100%;
+        justify-content:center;
+        margin-top: 10px; 
+    }
+    #image img{
+        width:55px;
+        height:45px;
+    }
+    #image img:hover{
+        width:75px;
+        border-bottom: 2px solid brown;
+    }
+    
+    
+    @keyframes changecolor{
+        0%{
+          background-color: #403535 ;
+        }
+        10%{
+          background-color: #294023;
+        }
+        50%{
+          background-color: #d2c4ae;
+        }
+        80%{
+            background-color: #6f553f;
+        }
+        100%{
+          background-color: #ffeccf;
+        }
+    }
+    
+    @keyframes changecl{
+        0%{
+          color: #403535 ;
+        }
+        10%{
+          color: #294023;
+        }
+        50%{
+          color: #d2c4ae;
+        }
+        80%{
+            color: #6f553f;
+        }
+        100%{
+          color: #ffeccf;
+        }
+    }
+}
+
+@media only screen and (min-width: 940px) and (max-width: 1070px){
+    #dom{
+        width:35%;
+    }
+  #art{
+      width: 65%;
+  }
+  #aside{
+      width:35%;
+  }
+  
+}
+@media only screen and (max-width: 940px ) and (min-width: 802px){
+    #dom{
+        width:40%;
+    }
+}
+@media only screen and (max-width: 801px ){
+    header , main{
+        height: auto;
+    }
+    #dom{
+        width:100%;
+    }
+    #h1logo, #imagelogo{
+        float: none;
+    }
+    span a{
+        text-decoration: none;
+    }
+    nav{
+        width:100%;
+    }
+    aside{
+        width:100%;
+    }
+    #box{
+        height:230px;
+        width:100%;
+        background-color: cornsilk;
+    }
+}
+@media only screen and (max-width: 500px){
+    nav li{
+        display:block;
+        width:100%;
+    }
+}
+    </style>
+</head>
+<body>
+   <header>
+       <span id="dom">
+        <a href="https://www.wakanim.tv/fr/v2/catalogue/show/62/lattaque-des-titans" ><h1 id="h1logo">Attack On Titan</h1></a>
+        <a href="https://www.wakanim.tv/fr/v2/catalogue/show/62/lattaque-des-titans" ><img src="attack.png"  id="imagelogo" /></a>
+       </span>
+       <nav>
+       <ul>
+           <li>
+               <a href="https://www.imdb.com/title/tt2560140/">TV Series</a>
+           </li>
+           <li>
+            <a href="https://read-attackontitan-manga.com/">Manga</a>
+          </li>
+          <li>
+            <a href="https://jeuxx-gratuit.fr/attack-on-titan-2-gratuit-ou-telecharger-pc/">Game</a>
+         </li>
+       </ul>
+   </nav>
+   </header> 
+   <main>
+       <aside>
+           <img src="ivaii.jpg" alt="attack on titan"/> 
+           <h1 id="h1aside">The Best One </h1>
+           <br/>
+           <iframe width="360" height="215" src="https://www.youtube-nocookie.com/embed/M_OauHnAFc8?start=5rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <div id="image">
+            <a href="#"><img src="facebook-new.png" alt="faceboock"  /></a>
+            <a href="#" ><img src="twitter (1).png" alt="twitter"  /></a>
+            <a href="#" ><img src="pngtree-instagram-black-amp.jpg" alt="instegramme"  /></a>
+           </div>
+       </aside>
+       <article id="art">
+           <div id="box">
+            <h1>Shingeki no Kyojin</h1>
+            <p>The Attack Titan (進撃の巨人 Shingeki no Kyojin?, also translated as Attacking Titan) was one of the Nine Titans that could see through the memories of its past and future holders, and has fought for freedom throughout the generations.</p>
+           </div>
+       </article>
+       
+   </main>
+  
+</body>
+</html>
